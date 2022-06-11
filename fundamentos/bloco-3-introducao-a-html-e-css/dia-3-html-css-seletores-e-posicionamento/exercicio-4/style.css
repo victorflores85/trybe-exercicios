@@ -18,6 +18,7 @@ div:nth-of-type(2) h3{
 div:nth-of-type(3) h3{
     background-color: lightsalmon;
     color: black;
+    height: 100px;
 }
 
 div:nth-of-type(4) h3{
@@ -30,11 +31,6 @@ div:nth-of-type(5) h3{
     color: blanchedalmond;
 }
 
-div:nth-of-type(odd){
+div:nth-of-type(odd) h3{
     font-style: italic;
-}
-
-div:nth-last-of-type(3){
-    height: 50px;
-    background-color: lightsalmon;
 }
